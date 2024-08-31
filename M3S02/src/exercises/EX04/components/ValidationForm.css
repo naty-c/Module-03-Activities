@@ -1,0 +1,55 @@
+.validationContainer {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fce5cd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+  
+.validationContainer h1 {
+    text-align: center;
+    color: #4276a5;
+    margin-bottom: 20px;
+}
+  
+.validationContainer label {
+    display: block;
+    margin-bottom: 5px;
+    color: #4276a5;
+    font-weight: bold;
+}
+  
+.validationContainer input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #eeeeee;
+    border-radius: 5px;
+}
+  
+.validationContainer input:focus {
+    outline: none;
+    border-color: #cf8989;
+}
+  
+.validationContainer button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4276a5;
+    color: #eeeeee;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+.validationContainer button:hover {
+    background-color: #2e5b82;
+}
+  
+.validationContainer p {
+    color: #cf8989;
+    font-size: 14px;
+}
+  

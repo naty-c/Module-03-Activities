@@ -1,0 +1,35 @@
+.themeTitle {
+    text-align: center;
+    color: #cf8989;
+    margin: 20px auto;
+}
+
+.themeButton {
+    display: flex;
+    align-items: center;
+    margin: 20px auto;
+    justify-content: center;
+    padding: 10px 20px;
+    width: 300px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background-color: #fce5cd;
+    color: #4276a5;
+    transition: background-color 0.3s ease;
+}
+  
+.themeButton:hover {
+    background-color: #cf8989;
+}
+  
+.dark-mode {
+    background-color: #4276a5;
+    color: #eeeeee;
+}
+  
+.light-mode {
+    background-color: #eeeeee;
+    color: #4276a5;
+}

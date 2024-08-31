@@ -1,0 +1,76 @@
+.listContainer {
+    background-color: #fce5cd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 20px auto;
+}
+
+.listContainer h1 {
+    text-align: center;
+    color: #4276a5;
+    margin-bottom: 20px;
+}
+
+.inputContainer {
+    display: block;
+    align-items: center;
+    margin-bottom: 10px;
+}
+  
+.listInput {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #eeeeee;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    font-size: 16px;
+}
+  
+.listButton {
+    background-color: #4276a5;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;    
+    cursor: pointer;
+    font-size: 1rem;
+}
+  
+.listButton:hover {
+    background-color: #cf8989;
+}
+  
+.listGroup {
+    list-style-type: none;
+    color: #cf8989;
+}
+  
+.listGroup li {
+    padding: 10px;
+    border-bottom: 1px solid #cf8989;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.listGroup li:last-child {
+    border-bottom: none;
+}
+  
+.listGroup li button {
+    background-color: #cf8989;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+.listGroup li button:hover {
+    background-color: #4276a5;
+
+}
